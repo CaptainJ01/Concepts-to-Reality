@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<!--
+Website by:
+
+---|  /\     /\    / |   | |----  -----			_____	_____  _  _    _   /\   |
+   | /--\   /  \  /  |   | |---|      /			\____	  |	  /	\ |\  /|  /--\  |
+--/ /    \ /    \/    \_/  ----|     /___		_____/	  |	  \_/ | \/ | /    \ |____
+ 
+!-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/javascript" href="main.js">
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>CONCEPTS TO REALITY</title>
+</head>
+<body background="background2.jpg" style="text-align:center">
+
+<!-- horizontal taskbar vv!-->
+
+
+<ul class="topbord3r">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <button class="loginbutton1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><li>Login</a></li></button></center>
+  
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!-- CREDITS: To W3Schools ^^!-->
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script><!-- CREDITS: To W3Schools ^^!-->
+
+
+  
+  <li><a href="#about">Sign Up</a></li>
+  <li><a href="#about">Other</a></li>
+  </ul>
+<!-- Horizontal Bar ^^ !-->
+
+
+<div class="cities">
+<pre><h1><center><img src="websitelogo.png" height="100" width ="100"><font size="7" color="A52A2A">Concepts to Reality</font></center></h1></pre>
+<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">
+Time</button>
+
+<p id="demo"></p> 
+</div>
+
+<!--
+<center> <button type="button" class="hacks"> <a href="hacks.jpg"> HACK DOWNLOAD!!!<-- </a> </button> </center>
+!-->
+
+<pre>
+
+
+</pre> 
+
+<button onclick="setTimeout(Welcome, 3000);">Welcome</button>
+
+<script>
+function Welcome() {
+    alert('Welcome to Concepts to Reality, website brought to you by those who made januszclass.com');
+}
+</script>
+
+<!--This is all the pop-up text vv !-->
+<div class="popup" onclick="myFunction()"><button class="popup">Warning!!!</button>
+  <span class="popuptext" id="myPopup">WANRING!!! SET SCREEN SIZE TO 75%! </span>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById('myPopup');
+    popup.classList.toggle('show');
+}
+</script><!-- CREDITS: To W3Schools ^^!-->
+<!-- pop up text n^^ !-->
+
+
+<pre>
+
+</pre>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- CREDITS: To W3Schools ^^!-->
+  
+  <a href="FERRARI/FERRARIpage.html">Ferrari</a>
+  <a href="#">Lamborghini</a>
+  <a href="#">Rolls Royce</a>
+  <a href="#">Bugatti</a>
+  <a href="#">Audi</a>
+  <a href="#">Mercedes</a>
+  <a href="#">BMW</a>
+  <a href="#">Aston Martin</a>
+  <a href="#">McLaren</a>  
+</div>
+
+<button type="button"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigate</span></button>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script><!-- CREDITS: To W3Schools ^^!-->
+
+<br>
+<br>
+
+<!-- FAding Image !-->
+<body>
+
+<div class="w3-container" style="background-color: darkgrey;color:white;padding:20px;">
+  <h1>Wait for It...</h1>
+  <img class="w3-animate-fading" src="epic.jpg" style="width:50%" ><!-- width="960" height="540"!-->
+</div>
+
+<!-- A bit of help from w3^^ !-->
+
+<pre>
+
+
+
+
+</pre>
+
+<div class="logo"><img class="img-size" src="ferrarilogo.png" alt="Ferrari"></div>	
+<center><div class="logo"><img class="img-size" src="audilogo.png" alt="Audi"></div></center>	
+<div class="logo2"><img class="img-size" src="mclarenlogo.png" alt="McLaren"></div>
+<div class="logo"><img class="img-size" src="bugattilogo.png" alt="Bugatti"></div>		
+<center><div class="logo"><img class="img-size" src="lamborghinilogo.png" alt="Lamborghini"></div></center>		
+<div class="logo2"><img class="img-size" src="rollsroycelogo.png" alt="Rolls Royce"></div>
+<div class="logo"><img class="img-size" src="astonmartinlogo.png" alt="Aston Martin"></div>
+<center><div class="logo"><img class="img-size" src="mercedeslogo.png" alt="Mercedes-Benz"></div></center>
+<div class="logo2"><img class="img-size" src="bmwlogo.png" alt="Bmw"></div>
+
+
+
+<div style="background-color:grey;color:white;padding:1px;">
+
+
+<h3><center> Main Pages of Our Favorite Comapnies </center></h3>
+<center><pre><p><img src="ferrarilogo.png" width="50" height="50"><a href="http://www.ferrari.com/en_en/">Ferrari<img src="ferrarilogo.png" width="50" height="50"></a></p><p><a href="http://www.lamborghini.com"><img src="lamborghinilogo.png" width="50" height="50">Lamborghini<img src="lamborghinilogo.png" width="50" height="50"></a></p><p><a href="http://www.bugatti.com"><img src="bugattilogo.png" width="50" height="50">Bugatti<img src="bugattilogo.png" width="50" height="50"></a></p><p><a href="http://www.bmw.com"><img src="bmwlogo.png" width="50" height="50">BMW<img src="bmwlogo.png" width="50" height="50"></a></p><p><a href="http://www.audi.com"><img src="audilogo.png" width="50" height="50">Audi<img src="audilogo.png" width="50" height="50"></a></p><p><a href="http://www.mercedes-benz.com"><img src="mercedeslogo.png" width="50" height="50">Mercedes<img src="mercedeslogo.png" width="50" height="50"></a></p><p><a href="http://www.mclaren.com"><img src="mclarenlogo.png" width="50" height="50">McLaren<img src="mclarenlogo.png" width="50" height="50"></a></p><p><a href="http://www.rolls-royce.com"><img src="rollsroycelogo.png" width="50" height="50">Rolls Royce<img src="rollsroycelogo.png" width="50" height="50"></a></p><p><a href="http://www.aston-martin.com"><img src="astonmartinlogo.png" width="50" height="50">Aston Martin<img src="astonmartinlogo.png" width="50" height="50"></a></p></pre></center>
+</div> 
+
+<pre>
+
+
+
+</pre>
+
+<center><div class="cities" style="width:85%">
+<pre><h2><center><font size="7" color="A52A2A">Top Concepts of 2015</font></center></h2></pre>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+
+<div class="w3-content" style="max-width:800px;position:relative">
+  <img class="mySlides" src="ferrari2015.jpg" style="width:100%"> <!-- f80 !-->
+  <img class="mySlides" src="lamborghini2015.jpg" style="width:100%"> <!-- diamante !-->
+  <img class="mySlides" src="rollsroyce2015.jpg" style="width:100%"> <!-- vision !-->
+  <img class="mySlides" src="mercedes2015.jpg" style="width:100%"> <!-- biome !-->
+  <img class="mySlides" src="astonmartin2015.jpg" style="width:100%"> <!-- vulcan !-->
+  <img class="mySlides" src="bugatti2015.jpg" style="width:100%"> <!-- granturismo !-->
+  <img class="mySlides" src="bmw2015.jpg" style="width:100%"> <!-- i8 !-->
+  <img class="mySlides" src="audi2015.jpg" style="width:100%"> <!-- r8 !-->
+  <img class="mySlides" src="mclaren2015.jpg" style="width:100%"> <!-- p1 gtr !-->
+
+  <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><</a>
+  <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">></a>
+  
+  <center><p><font size="5" color="white"> Here at <i>Concepts to Reality</i> we beleive that it is vital to know about the future of our cars,<br> the very things that will be driving us forward, to a new and better future. <br> This shows how we will bring super theories, to the track.<br> Concepts to Reality!  </font></p></center>
+
+</div></center>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script><!-- CREDITS: To W3Schools ^^!-->
+
+<!-- dont forget that i have more images saved at school along with a bit more text. !-->
+
+
+<pre>
+
+
+</pre>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- CREDITS: To W3Schools ^^!-->
+  
+  <a href="FERRARI/FERRARIpage.html">Ferrari</a>
+  <a href="#">Lamborghini</a>
+  <a href="#">Rolls Royce</a>
+  <a href="#">Bugatti</a>
+  <a href="#">Audi</a>
+  <a href="#">Mercedes</a>
+  <a href="#">BMW</a>
+  <a href="#">Aston Martin</a>
+  <a href="#">McLaren</a>  
+</div><!-- CREDITS: To W3Schools ^^!-->
+
+<button type="button"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigate</span></button>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<pre>
+
+
+
+</pre>
+
+
+<center><h4><font size="6" color="white"><b>Future Cars & New Projects </b></font></h4></center>
+
+<pre><center><font size="4" color="white">
+
+BMW: The newest concept is the Vision 100, set to be fully operational in <br> the next 100 years.
+
+Mercedes: The e-mobility is their current project set for the future. Along with the Mercedes AMG 6x6 Concept!
+
+Ferrari: Right now the main focus is the new Ferrari f80 (as in the slide show)
+
+Bugatti: The Bugatti Vision Gran Turismo is the newest devolopment.
+
+Lamborghini: Lamborghini is currently recognising many different concepts, but one that <br> stands out is the Lamborghini Diamante concept.
+
+Rolls Royce:The all new Rolls Royce Vision, is that one and only concept in the <br> Rolls Royce company.
+
+Aston Martin: The vulcan and remakes of older version and a special eddition Bond car.
+
+Audi: The brand new audi r8 turbo and the audi tt.
+
+McLaren: McClaren P1 gtr is the newest contribution to the superclass series.
+
+</font></center></pre>
+
+<div style="background-color:#a9a9a9;color:white;padding:20px;"><center>
+<!--<p><font size="6" color="red"><center><b>Famous Auto Show in Paris 2016</b></center></font>
+!-->
+
+ 
+<h3>Paris Auto Show</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k9za5WL0cMY" frameborder="0" allowfullscreen>
+</iframe>
+</center></div>
+
+<pre>
+
+
+</pre>
+
+<center> <button type="button"> <a href="Developer/page.html"> About The WebMaster! </a> </button> </center>
+
+<pre>
+
+
+</pre> 
+
+
+<div style="background-color:black;color:white;padding:20px;">
+<h4><font size="6" color="white"><b> What color do you prefer your lamborghini? </b></font></h4>
+
+<button onclick="document.getElementById('lamborghinitestc').src='blue.png'">Blue?</button>
+
+<img id="lamborghinitestc" src="pic_bulboff.gif" style="width:300px">
+
+<button onclick="document.getElementById('lamborghinitestc').src='red.png'">or Red?</button>
+
+<h4><font size="6" color="white"><b> What about ferrari? </b></font></h4>
+
+<button onclick="document.getElementById('lamborghinitestc').src='ferrarigreen.jpg'">Green</button>
+
+<button onclick="document.getElementById('lamborghinitestc').src='ferraripurple.jpg'">Purple</button>
+
+<button onclick="document.getElementById('lamborghinitestc').src='ferrariorange.jpg'">Orange</button>
+
+<button onclick="document.getElementById('lamborghinitestc').src='ferrariyellow.jpg'">Yellow</button>
+
+<button onclick="document.getElementById('lamborghinitestc').src='ferrarimulti.jpg'">Multicolored</button>
+</div>
+
+<pre>
+
+
+</pre>
+
+<form>
+  <textarea style="width:50%" >Feedback Here...</textarea>
+</form>
+<input type="submit" value="Submit">
+  
+<pre>
+
+
+</pre>
+
+
+
+<center><div style="background-color:grey;color:white;padding:20px;">
+<a href="https://www.instagram.com/"><img src="instagramlogo.png" width="71" height="70">
+<a href="https://www.facebook.com/JanuszThe2nd"><img src="facebooklogo.png" width="75" height="75">
+<a href="https://www.twitter.com/"><img src="twitterlogo.png" width="75" height="75">
+</div></center>
+
+</body>
+</html>
