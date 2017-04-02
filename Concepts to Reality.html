@@ -146,17 +146,19 @@ function closeNav() {
 <script>
 var person = prompt("Please enter your username", "------");
 
-if (person != null) {
-    document.getElementById("demo").innerHTML =
-    "Hello, welcome to concepts to reality, " + person ;
-}
+ 
 
 var password = prompt("Please enter your password", "******");
 
-if (password != null) {
+if ((password ==="polska11") && (person ==="Janusz")){
     document.getElementById("demo").innerHTML =
     "Hello welcome to concepts to reality " + person ;
 }
+else 
+{
+location.reload();
+}
+
 </script>
 
 <br>
@@ -380,9 +382,9 @@ McLaren: McClaren P1 gtr is the newest contribution to the superclass series.
 
 
 <center><div style="background-color:grey;color:white;padding:20px;">
-<a href="https://www.instagram.com/"><img src="photos/mainpage/instagramlogo.png" width="71" height="70">
-<a href="https://www.facebook.com/JanuszThe2nd"><img src="photos/mainpage/facebooklogo.png" width="75" height="75">
-<a href="https://www.twitter.com/"><img src="photos/mainpage/twitterlogo.png" width="75" height="75">
+<a href="https://www.instagram.com/" target="_blank"><img src="photos/mainpage/instagramlogo.png" width="71" height="70">
+<a href="https://www.facebook.com/JanuszThe2nd" target="_blank"><img src="photos/mainpage/facebooklogo.png" width="75" height="75">
+<a href="https://www.twitter.com/" target="_blank"><img src="photos/mainpage/twitterlogo.png" width="75" height="75">
 </div></center>
 
 </body>
