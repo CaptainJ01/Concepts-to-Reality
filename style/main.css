@@ -10,12 +10,39 @@ li {
     float: left;
 }
 /*------------------------------------------------------------------------------------------------------------------*/
-.cities {
+.welcome {
     background-color: darkgrey; 
     color: white;
     margin: 10px 0 10px 0;
     padding: 2px;
+	opacity: 0.8;
+	border-style: solid;
+    border-color: red;
 }
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Top Head*/
+.headimage {
+    position: absolute;
+    left: 20px;
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.welcome-img{
+	background-color: darkgrey;
+	color:white;
+	padding:20px;
+	width:1000px;
+	padding-bottom: 50px;
+	border-style: solid;
+    border-color: red;
+	opacity: 0.97;
+}
+
+
 
 /*------------------------------------------------------------------------------------------------------------------*/
 
