@@ -10,6 +10,16 @@ li {
     float: left;
 }
 /*------------------------------------------------------------------------------------------------------------------*/
+.imagelinks{
+    background-color: darkgrey; 
+    color: white;
+    margin: 10px 0 10px 0;
+    padding: 2px;
+	opacity: 0.95;
+	border-style: solid;
+    border-color: red;	
+}
+/*------------------------------------------------------------------------------------------------------------------*/
 .welcome {
     background-color: darkgrey; 
     color: white;
@@ -163,20 +173,26 @@ input[type=text], input[type=password] {
 
 .logo {
     background-color: lightgrey;
-    width: 300px;
+    width: 25%;
     border: 25px solid #810000;
     padding: 25px;
     margin: 25px;
-	float: left;
 } 
 
 .logo2 {
     background-color: lightgrey;
-    width: 300px;
+    width: 25%;
     border: 25px solid #810000;
     padding: 25px;
     margin: 25px;
-	float: right;	
+} 
+
+.logo3 {
+    background-color: lightgrey;
+    width: 25%;
+    border: 25px solid #810000;
+    padding: 25px;
+    margin: 25px;
 } 
 
 .avatar {
