@@ -23,11 +23,14 @@ li {
 .welcome {
     background-color: darkgrey; 
     color: white;
-    margin: 10px 0 10px 0;
+    margin: 0px 0 0px 0;
     padding: 2px;
-	opacity: 0.8;
+	opacity: 0.95;
 	border-style: solid;
     border-color: red;
+	position: fixed;
+	width: 100%;
+	top: 0px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -94,7 +97,7 @@ body {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 0px;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -130,6 +133,12 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+.navigatebutton
+{
+    position: fixed;
+    top: 190px;
+	right: 1px
+}
 /*------------------------------------------------------------------------------------------------------------------*/
 
 /* Login Form */
@@ -349,4 +358,19 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.choice {
+	opacity: 0.8 ;
+	width: 75% ;
+	border: 2px solid #ff0000;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.autoshow {
+	opacity: 0.8 ;
+	width: 80% ;
+	border: 2px solid #ff0000;
 }
