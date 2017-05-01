@@ -347,7 +347,6 @@ span.psw {
 
 /*------------------------------------------------------------------------------------------------------------------*/
 
-
 textarea {
     width: 100%;
     height: 150px;
@@ -370,7 +369,78 @@ textarea {
 
 /*------------------------------------------------------------------------------------------------------------------*/
 .autoshow {
-	opacity: 0.8 ;
+	opacity: 0.9 ;
 	width: 80% ;
 	border: 2px solid #ff0000;
 }
+
+.parisvid {
+	opacity: 1 ;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* Example of a Media Query*/
+/*------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:675px) {  
+  .headimage img {
+    display: none;
+  }
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Rest of The Media Queries for 675px screen size*/
+/*------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:675px) {  
+  .topbord3r {
+    display: none;
+  }
+}
+
+@media screen and (max-width:675px) {  
+  .navigatebutton {
+    height: 50px ;
+	width: 100px ;
+	font: none; 
+    top: 100px	
+  }
+}
+
+@media screen and (max-width:675px) {  
+  .welcome-img {
+    height: 85% ;
+	width: 85% ;  
+  }
+}
+
+@media screen and (max-width:675px) {  
+  .imagelinks {
+    display: none ;
+	}
+}
+
+/*<--/***DANK MEMES***/
+
+@media screen and (max-width:675px) {  
+  .autoshow {
+    display: none ;
+	}
+   .parisvid {
+    display: none ;
+   }
+}
+
+@media screen and (max-width:675px) {  
+  .welcome {
+    height: 100px ;
+	}
+  .timebutton{
+	display: none;  
+  }
+  .randomspacing {
+	display: none;
+  }
+  .welcomebuttontimed {
+	display: none;	
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/

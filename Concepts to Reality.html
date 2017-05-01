@@ -19,13 +19,13 @@ Website by:
 
 <!-- horizontal taskbar vv!-->
 
-<pre>
+<pre class="randomspacing">
 
 
 
 
 
-
+</pre><pre>
 
 </pre>
 
@@ -79,7 +79,7 @@ window.onclick = function(event) {
 <div class="welcome">
 	<div class="headimage"><div class="logoimg"><img src="photos/mainpage/websitelogo.png" height="100" width ="100"></div></div>
 		<pre><h1><center><font size="7" color="A52A2A">Concepts to Reality</font></center></h1></pre>
-	<button type="button"onclick="document.getElementById('demo').innerHTML = Date()"> Time</button>
+	<button class="timebutton" type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Time</button>
  <p id="demo"></p> 
 </div>
 
@@ -87,14 +87,8 @@ window.onclick = function(event) {
 <center> <button type="button" class="hacks"> <a href="hacks.jpg"> HACK DOWNLOAD!!!<-- </a> </button> </center>
 !-->
 
-<pre>
 
-
-
-
-</pre> 
-
-<button onclick="setTimeout(Welcome, 3000);">Welcome</button>
+<button class="welcomebuttontimed" onclick="setTimeout(Welcome, 3000);">Welcome</button>
 
 <script>
 function Welcome() {
@@ -152,21 +146,47 @@ function closeNav() {
 <br>
 <br>
 
+
+
+<!-- THIS IS A BACKUP// PREVIOUS VERSION OF MY USERNAME//PASSWORD CHECK
+
 <script>
 var person = prompt("Please enter your username", "------"); // prompt for username
 
 var password = prompt("Please enter your password", "******"); //prompt for password
 
-if ((password ===" ") && (person ===" ")){ //username and password
+if ([(password ===" ") && (person ===" "), (password ==="Janusz") && (person ==="stomal"), (password ==="Mr.Deg") && (person ==="cp4")]){ //username and password
     document.getElementById("demo").innerHTML =
     "Hello welcome to concepts to reality " + person ;
 }
+
+//["Saab", "Volvo", "BMW"]
+
 else 
 {
 	location.reload(); //resets sheet if not inserted correctly
 }
 
+</script>!--> 
+
+
+<script>
+var person = prompt("Please enter your username", "------"); // prompt for username
+
+var password = prompt("Please enter your password", "******"); //prompt for password
+
+if ((var password === [" ", "cp4", "test", "stomal"]) && (var person === [" ", "mr.deg", "test", "Janusz"])){ //username and password
+    document.getElementById("demo").innerHTML =
+    "Hello welcome to concepts to reality " + person ;
+}
+
+else 
+{
+	location.reload(); //resets sheet if not inserted correctly
+}
 </script>
+
+
 
 <br>
 <br>
@@ -198,10 +218,7 @@ else
 <center><div class="logo"><img class="img-size" src="photos/mainpage/mercedeslogo.png" alt="Mercedes-Benz"></div></center>
 <div class="logo2"><img class="img-size" src="photos/mainpage/bmwlogo.png" alt="Bmw"></div>
 
-
-
 <div style="background-color:grey;color:white;padding:1px;">
-
 
 <h3><center> Main Pages of Our Favorite Comapnies </center></h3>
 <center><pre><p><img src="photos/mainpage/ferrarilogo.png" width="50" height="50"><a href="http://www.ferrari.com/en_en/">Ferrari<img src="photos/mainpage/ferrarilogo.png" width="50" height="50"></a></p><p><a href="http://www.lamborghini.com"><img src="photos/mainpage/lamborghinilogo.png" width="50" height="50">Lamborghini<img src="photos/mainpage/lamborghinilogo.png" width="50" height="50"></a></p><p><a href="http://www.bugatti.com"><img src="photos/mainpage/bugattilogo.png" width="50" height="50">Bugatti<img src="photos/mainpage/bugattilogo.png" width="50" height="50"></a></p><p><a href="http://www.bmw.com"><img src="photos/mainpage/bmwlogo.png" width="50" height="50">BMW<img src="photos/mainpage/bmwlogo.png" width="50" height="50"></a></p><p><a href="http://www.audi.com"><img src="photos/mainpage/audilogo.png" width="50" height="50">Audi<img src="photos/mainpage/audilogo.png" width="50" height="50"></a></p><p><a href="http://www.mercedes-benz.com"><img src="photos/mainpage/mercedeslogo.png" width="50" height="50">Mercedes<img src="photos/mainpage/mercedeslogo.png" width="50" height="50"></a></p><p><a href="http://www.mclaren.com"><img src="photos/mainpage/mclarenlogo.png" width="50" height="50">McLaren<img src="photos/mainpage/mclarenlogo.png" width="50" height="50"></a></p><p><a href="http://www.rolls-royce.com"><img src="photos/mainpage/rollsroycelogo.png" width="50" height="50">Rolls Royce<img src="photos/mainpage/rollsroycelogo.png" width="50" height="50"></a></p><p><a href="http://www.aston-martin.com"><img src="photos/mainpage/astonmartinlogo.png" width="50" height="50">Aston Martin<img src="photos/mainpage/astonmartinlogo.png" width="50" height="50"></a></p></pre></center>
@@ -331,12 +348,10 @@ McLaren: McClaren P1 gtr is the newest contribution to the superclass series.
 </font></center></pre>
 
 <center><div class="autoshow" style="background-color:#a9a9a9;color:white;padding:20px;"><center>
-<!--<p><font size="6" color="red"><center><b>Famous Auto Show in Paris 2016</b></center></font>
-!-->
 <h3>Paris Auto Show</h3>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k9za5WL0cMY" frameborder="0" allowfullscreen>
-</iframe>
+<div class="parisvid"><iframe width="560" height="315" src="https://www.youtube.com/embed/k9za5WL0cMY" frameborder="0" allowfullscreen>
+</iframe></div>
 </center></div></center>
 
 <pre>
