@@ -146,9 +146,9 @@ function closeNav() {
 <br>
 <br>
 
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------!-->
 
-
-<!-- THIS IS A BACKUP// PREVIOUS VERSION OF MY USERNAME//PASSWORD CHECK
+<!-- THIS IS A BACKUP// PREVIOUS VERSION OF MY USERNAME//PASSWORD CHECK // WORKING
 
 <script>
 var person = prompt("Please enter your username", "------"); // prompt for username
@@ -170,12 +170,13 @@ else
 </script>!--> 
 
 
-<script>
-var person = prompt("Please enter your username", "------"); // prompt for username
+<!-- FIRST ATTEMPT OF ARRAYS// FAILED!-->
+<!-- <script>
+var person === prompt("Please enter your username", "------"); // prompt for username
 
-var password = prompt("Please enter your password", "******"); //prompt for password
+var password === prompt("Please enter your password", "******"); //prompt for password
 
-if ((var password === [" ", "cp4", "test", "stomal"]) && (var person === [" ", "mr.deg", "test", "Janusz"])){ //username and password
+if ((var password = [" ", "cp4", "test", "stomal"]) && (var person = [" ", "mr.deg", "test", "Janusz"])){ //username and password
     document.getElementById("demo").innerHTML =
     "Hello welcome to concepts to reality " + person ;
 }
@@ -184,9 +185,26 @@ else
 {
 	location.reload(); //resets sheet if not inserted correctly
 }
+</script>--> 
+
+<script>
+var person = prompt("Please enter your username", "------"); // prompt for username
+
+var password = prompt("Please enter your password", "******"); //prompt for password
+
+if ((password ===" ") && (person ===" ")){ //username and password
+    document.getElementById("demo").innerHTML =
+    "Hello welcome to concepts to reality " + person ;
+}
+
+//["Saab", "Volvo", "BMW"]
+
+else 
+{
+	location.reload(); //resets sheet if not inserted correctly
+}
 </script>
-
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------!-->
 
 <br>
 <br>
@@ -225,18 +243,18 @@ else
 </div> 
 !-->
 
-<div class="imagelinks" > <!-- finish this up 03/04/2017 !-->
+<div class="imagelinks" > <!-- finish this up 03/04/2017 !--><
 
 <a href="http://www.ferrari.com/en_en/" target="_blank">
 <div class="logo"><img class="img-size" src="photos/mainpage/ferrarilogo.png" alt="Ferrari"></div>	
 </a>
 
 <a href="http://www.audi.com" target="_blank">
-<div class="logo"><img class="img-size" src="photos/mainpage/audilogo.png" alt="Audi"></div>	
+<div class="logo2"><img class="img-size" src="photos/mainpage/audilogo.png" alt="Audi"></div>	
 </a>
 
 <a href="http://www.mclaren.com" target="_blank">
-<div class="logo2"><img class="img-size" src="photos/mainpage/mclarenlogo.png" alt="McLaren"></div>
+<div class="logo3"><img class="img-size" src="photos/mainpage/mclarenlogo.png" alt="McLaren"></div>
 </a>
 
 <a href="http://www.bugatti.com" target="_blank">
@@ -244,11 +262,11 @@ else
 </a>
 
 <a href="http://www.lamborghini.com" target="_blank">
-<div class="logo"><img class="img-size" src="photos/mainpage/lamborghinilogo.png" alt="Lamborghini"></div>		
+<div class="logo2"><img class="img-size" src="photos/mainpage/lamborghinilogo.png" alt="Lamborghini"></div>		
 </a>
 
 <a href="http://www.rolls-royce.com" target="_blank">
-<div class="logo2"><img class="img-size" src="photos/mainpage/rollsroycelogo.png" alt="Rolls Royce"></div>
+<div class="logo3"><img class="img-size" src="photos/mainpage/rollsroycelogo.png" alt="Rolls Royce"></div>
 </a>
 
 <a href="http://www.aston-martin.com" target="_blank">
@@ -256,11 +274,11 @@ else
 </a>
 
 <a href="http://www.mercedes-benz.com" target="_blank">
-<div class="logo"><img class="img-size" src="photos/mainpage/mercedeslogo.png" alt="Mercedes-Benz"></div>
+<div class="logo2"><img class="img-size" src="photos/mainpage/mercedeslogo.png" alt="Mercedes-Benz"></div>
 </a>
 
 <a href="http://www.bmw.com" target="_blank">
-<div class="logo2"><img class="img-size" src="photos/mainpage/bmwlogo.png" alt="Bmw"></div>
+<div class="logo3"><img class="img-size" src="photos/mainpage/bmwlogo.png" alt="Bmw"></div>
 </a>
 
 <pre>
@@ -272,7 +290,6 @@ else
 <!-- <pre><h2><center><font size="7" color="A52A2A">Top Concepts of 2015</font></center></h2></pre>!-->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
 <div class="w3-content" style="max-width:800px;position:relative">
   <img class="mySlides" src="photos/mainpage/ferrari2015.jpg" style="width:100%"> <!-- f80 !-->
@@ -284,7 +301,7 @@ else
   <img class="mySlides" src="photos/mainpage/bmw2015.jpg" style="width:100%"> <!-- i8 !-->
   <img class="mySlides" src="photos/mainpage/audi2015.jpg" style="width:100%"> <!-- r8 !-->
   <img class="mySlides" src="photos/mainpage/mclaren2015.jpg" style="width:100%"> <!-- p1 gtr !-->
-
+  
   <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><</a>
   <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">></a>
   
@@ -406,7 +423,7 @@ McLaren: McClaren P1 gtr is the newest contribution to the superclass series.
 
 
 
-<center><div style="background-color:grey;color:white;padding:20px;">
+<center><div class="socialmedia" style="background-color:grey;color:white;padding:20px;">
 <a href="https://www.instagram.com/" target="_blank"><img src="photos/mainpage/instagramlogo.png" width="71" height="70">
 <a href="https://www.facebook.com/JanuszThe2nd" target="_blank"><img src="photos/mainpage/facebooklogo.png" width="75" height="75">
 <a href="https://www.twitter.com/" target="_blank"><img src="photos/mainpage/twitterlogo.png" width="75" height="75">

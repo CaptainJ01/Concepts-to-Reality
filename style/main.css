@@ -31,6 +31,7 @@ li {
 	position: fixed;
 	width: 100%;
 	top: 0px;
+	right: 0px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -136,8 +137,8 @@ body {
 .navigatebutton
 {
     position: fixed;
-    top: 190px;
-	right: 1px
+    top: 127px;
+	right: 0px
 }
 /*------------------------------------------------------------------------------------------------------------------*/
 
@@ -182,26 +183,29 @@ input[type=text], input[type=password] {
 
 .logo {
     background-color: lightgrey;
-    width: 25%;
     border: 25px solid #810000;
     padding: 25px;
     margin: 25px;
+	float:left;
+	width:25%;
 } 
 
 .logo2 {
     background-color: lightgrey;
-    width: 25%;
     border: 25px solid #810000;
     padding: 25px;
     margin: 25px;
+	float:left;
+	width:25%;
 } 
 
 .logo3 {
     background-color: lightgrey;
-    width: 25%;
     border: 25px solid #810000;
     padding: 25px;
     margin: 25px;
+	float:left;
+	width:25%;
 } 
 
 .avatar {
@@ -366,6 +370,14 @@ textarea {
 	width: 75% ;
 	border: 2px solid #ff0000;
 }
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.socialmedia{
+	left: 0px; 
+	right: 0px;
+	bottom: 0px;
+}
+
 
 /*------------------------------------------------------------------------------------------------------------------*/
 .autoshow {
@@ -400,7 +412,7 @@ textarea {
     height: 50px ;
 	width: 100px ;
 	font: none; 
-    top: 100px	
+    top: 110px	
   }
 }
 
