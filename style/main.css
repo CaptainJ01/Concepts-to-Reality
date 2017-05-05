@@ -137,7 +137,7 @@ body {
 .navigatebutton
 {
     position: fixed;
-    top: 127px;
+    top: 191px;
 	right: 0px
 }
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -181,32 +181,16 @@ input[type=text], input[type=password] {
 
 /*------------------------------------------------------------------------------------------------------------------*/
 
-.logo {
+.logo{
     background-color: lightgrey;
     border: 25px solid #810000;
     padding: 25px;
     margin: 25px;
 	float:left;
 	width:25%;
-} 
-
-.logo2 {
-    background-color: lightgrey;
-    border: 25px solid #810000;
-    padding: 25px;
-    margin: 25px;
-	float:left;
-	width:25%;
-} 
-
-.logo3 {
-    background-color: lightgrey;
-    border: 25px solid #810000;
-    padding: 25px;
-    margin: 25px;
-	float:left;
-	width:25%;
-} 
+	max-width: 200px;	
+	max-height: 200px;
+}  
 
 .avatar {
     width: 40%;
@@ -401,37 +385,35 @@ textarea {
 /*------------------------------------------------------------------------------------------------------------------*/
 /*Rest of The Media Queries for 675px screen size*/
 /*------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:675px) {  
+@media screen and (max-width:1000px) {  
   .topbord3r {
     display: none;
   }
 }
 
-@media screen and (max-width:675px) {  
+@media screen and (max-width:1000px) {  
   .navigatebutton {
     height: 50px ;
 	width: 100px ;
 	font: none; 
-    top: 110px	
+    top: 100px;
   }
 }
 
-@media screen and (max-width:675px) {  
+@media screen and (max-width:1000px) {  
   .welcome-img {
     height: 85% ;
 	width: 85% ;  
   }
 }
 
-@media screen and (max-width:675px) {  
+@media screen and (max-width:1000px) {  
   .imagelinks {
     display: none ;
 	}
 }
 
-/*<--/***DANK MEMES***/
-
-@media screen and (max-width:675px) {  
+@media screen and (max-width:1000px) {  
   .autoshow {
     display: none ;
 	}
@@ -440,7 +422,7 @@ textarea {
    }
 }
 
-@media screen and (max-width:675px) {  
+@media screen and (max-width:1000px) {  
   .welcome {
     height: 100px ;
 	}
