@@ -3,10 +3,14 @@
 <!--
 Website by:
 
----|  /\     /\    / |   | |----  -----			_____	_____  _  _    _   /\   |
-   | /--\   /  \  /  |   | |---|      /			\____	  |	  /	\ |\  /|  /--\  |
---/ /    \ /    \/    \_/  ----|     /___		_____/	  |	  \_/ | \/ | /    \ |____
+---|  /\     /\    / |   | |----  -----			_____	_____  _  _    _   /\   |		|	|	  /\
+   | /--\   /  \  /  |   | |---|      /			\____	  |	  /	\ |\  /|  /--\  |		|___|	 /--\
+--/ /    \ /    \/    \_/  ----|     /___		_____/	  |	  \_/ | \/ | /    \ |____		|	/    \
  
+ ----	|---\		 /	 |
+| 		|   |  ---	|	 |
+|		|---/		\----|
+ ----	|				 |
 !-->
 <html>
 <head>
@@ -151,9 +155,9 @@ function closeNav() {
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------!-->
 
-<!-- THIS IS A BACKUP// PREVIOUS VERSION OF MY USERNAME//PASSWORD CHECK // WORKING
+<!-- THIS IS A BACKUP// PREVIOUS VERSION OF MY USERNAME//PASSWORD CHECK // WORKING !-->
 
-<script>
+<!-- <script>
 var person = prompt("Please enter your username", "------"); // prompt for username
 
 var password = prompt("Please enter your password", "******"); //prompt for password
@@ -170,11 +174,31 @@ else
 	location.reload(); //resets sheet if not inserted correctly
 }
 
-</script>!--> 
+</script>!-->
 
+<script>
+var person = prompt("Please enter your username", "------"); // prompt for username
+var password = prompt("Please enter your password", "******"); //prompt for password
+
+var passwordArray = ["Janusz", "test", " "];
+var personArray = ["stomal", "test", " "];
+
+if ( (password  === passwordArray) && (person === personArray) ){ //username and password
+    document.getElementById("demo").innerHTML =
+    "Hello welcome to concepts to reality " + person ;
+}
+
+//["Saab", "Volvo", "BMW"]
+
+else 
+{
+	location.reload(); //resets sheet if not inserted correctly
+}
+
+</script>
 
 <!-- FIRST ATTEMPT OF ARRAYS// FAILED!-->
-<!-- <script>
+<!-- <script> Login Part 2
 var person === prompt("Please enter your username", "------"); // prompt for username
 
 var password === prompt("Please enter your password", "******"); //prompt for password
@@ -188,9 +212,9 @@ else
 {
 	location.reload(); //resets sheet if not inserted correctly
 }
-</script>--> 
+</script> !--> 
 
-<script>
+<!-- <script> Login Part 3 
 var person = prompt("Please enter your username", "------"); // prompt for username
 
 var password = prompt("Please enter your password", "******"); //prompt for password
@@ -206,7 +230,7 @@ else
 {
 	location.reload(); //resets sheet if not inserted correctly
 }
-</script>
+</script>!--> 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------!-->
 
 <br>
@@ -246,7 +270,7 @@ else
 </div> 
 !-->
 
-<div class="imagelinks" > <!-- finish this up 03/04/2017 !--><
+<!-- finish this up 03/04/2017 !--><
 
 <a href="http://www.ferrari.com/en_en/" target="_blank">
 <div class="logo"><img class="img-size" src="photos/mainpage/ferrarilogo.png" alt="Ferrari"></div>	
@@ -284,60 +308,12 @@ else
 <div class="logo"><img class="img-size" src="photos/mainpage/bmwlogo.png" alt="Bmw"></div>
 </a>
 
-
 <pre>
 
 
 </pre>
 
-<center><div class="cities" style="width:85%" style="background-color:grey;color:white;padding:1px;" >
-<!-- <pre><h2><center><font size="7" color="A52A2A">Top Concepts of 2015</font></center></h2></pre>!-->
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<div class="w3-content" style="max-width:800px;position:relative">
-  <img class="mySlides" src="photos/mainpage/ferrari2015.jpg" style="width:100%"> <!-- f80 !-->
-  <img class="mySlides" src="photos/mainpage/lamborghini2015.jpg" style="width:100%"> <!-- diamante !-->
-  <img class="mySlides" src="photos/mainpage/rollsroyce2015.jpg" style="width:100%"> <!-- vision !-->
-  <img class="mySlides" src="photos/mainpage/mercedes2015.jpg" style="width:100%"> <!-- biome !-->
-  <img class="mySlides" src="photos/mainpage/astonmartin2015.jpg" style="width:100%"> <!-- vulcan !-->
-  <img class="mySlides" src="photos/mainpage/bugatti2015.jpg" style="width:100%"> <!-- granturismo !-->
-  <img class="mySlides" src="photos/mainpage/bmw2015.jpg" style="width:100%"> <!-- i8 !-->
-  <img class="mySlides" src="photos/mainpage/audi2015.jpg" style="width:100%"> <!-- r8 !-->
-  <img class="mySlides" src="photos/mainpage/mclaren2015.jpg" style="width:100%"> <!-- p1 gtr !-->
-  
- <br>
- <br> 
- 
-  
- <div><a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><</a></div>
- <div><a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">></a></div>
-  
-  <center><p><font size="5" color="white"> Here at <i>Concepts to Reality</i> we beleive that it is vital to know about the future of our cars,<br> the very things that will be driving us forward, to a new and better future. <br> This shows how we will bring super theories, to the track.<br> Concepts to Reality!  </font></p></center>
-
-	</div></center> 
-</div>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script><!-- CREDITS: To W3Schools ^^!-->
+<!-- CREDITS: To W3Schools ^^!-->
 
 <!-- dont forget that i have more images saved at school along with a bit more text. !-->
 
@@ -348,7 +324,7 @@ function showDivs(n) {
 </pre>
 
 
-<center><h4><font size="6" color="white"><b>Future Cars & New Projects </b></font></h4></center>
+<div class="imagelinks"><center><h4><font size="6" color="white"><b>Future Cars & New Projects </b></font></h4></center>
 
 <pre><center><font size="4" color="white">
 
@@ -370,7 +346,7 @@ Audi: The brand new audi r8 turbo and the audi tt.
 
 McLaren: McClaren P1 gtr is the newest contribution to the superclass series.
 
-</font></center></pre>
+</font></center></pre></div>
 
 <center><div class="autoshow" style="background-color:#a9a9a9;color:white;padding:20px;"><center>
 <h3>Paris Auto Show</h3>
@@ -429,6 +405,55 @@ McLaren: McClaren P1 gtr is the newest contribution to the superclass series.
 
 </pre>
 
+
+<center><div class="cities" style="width:85%" style="background-color:grey;color:white;padding:1px;" >
+<!-- <pre><h2><center><font size="7" color="A52A2A">Top Concepts of 2015</font></center></h2></pre>!-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="w3-content" style="max-width:800px;position:relative">
+  <img class="mySlides" src="photos/mainpage/ferrari2015.jpg" style="width:100%"> <!-- f80 !-->
+  <img class="mySlides" src="photos/mainpage/lamborghini2015.jpg" style="width:100%"> <!-- diamante !-->
+  <img class="mySlides" src="photos/mainpage/rollsroyce2015.jpg" style="width:100%"> <!-- vision !-->
+  <img class="mySlides" src="photos/mainpage/mercedes2015.jpg" style="width:100%"> <!-- biome !-->
+  <img class="mySlides" src="photos/mainpage/astonmartin2015.jpg" style="width:100%"> <!-- vulcan !-->
+  <img class="mySlides" src="photos/mainpage/bugatti2015.jpg" style="width:100%"> <!-- granturismo !-->
+  <img class="mySlides" src="photos/mainpage/bmw2015.jpg" style="width:100%"> <!-- i8 !-->
+  <img class="mySlides" src="photos/mainpage/audi2015.jpg" style="width:100%"> <!-- r8 !-->
+  <img class="mySlides" src="photos/mainpage/mclaren2015.jpg" style="width:100%"> <!-- p1 gtr !-->
+  
+ <br>
+ <br> 
+ 
+  
+ <div><a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><</a></div>
+ <div><a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">></a></div>
+  
+  <center><p><font size="5" color="white"> Here at <i>Concepts to Reality</i> we beleive that it is vital to know about the future of our cars,<br> the very things that will be driving us forward, to a new and better future. <br> This shows how we will bring super theories, to the track.<br> Concepts to Reality!  </font></p></center>
+
+	</div></center> 
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 
 
 <center><div class="socialmedia" style="background-color:grey;color:white;padding:20px;">
