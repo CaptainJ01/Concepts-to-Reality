@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Tutorial</title>
+<title>LOGIN PAGE</title>
 </head>
-<link rel="stylesheet" type="text/css" href="loginpage.css">
-<body background="background1.jpg">
-
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
-</ul>
-
-<br>
-<br>
-<br>
-<br>
-
+<body background="photos/login/background1.jpg">
 <body>
 
-<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></center>
+<br>
+<br>
+<br>
+<br>
 
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="action_page.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
+<center><button onclick="login()" target="_blank">&#9776; LOGIN HERE </button> </center>
 
-    <div class="container">
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <input type="checkbox" checked="checked"> Remember me
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
+<!-- Attempt One - Working with glitch
 <script>
-// Get the modal
-var modal = document.getElementById('id01');
+function login()/*this is the opening function*/ { 
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+function incorrect() {
+	alert("Username or password is incorrect");
 }
-</script>
 
+ var username = ["janusz","test", "mr.deg", " "]; //This is all the usernames
+	var pass =["stomal","test","cp4"," "] // this is all the password
+	
+/*vars to cheak the users response*/
+	var person = prompt("Enter Username Here");
+	for (i = 0; i < username.length; i++) { // opens for loop
+			if (person === username[i]) { //opens if statement
+			var password = prompt("Enter Password Here"); //prompt for password
+				for (f = 0; f < pass.length; f++) { //this checks the password
+					if (password === pass[f]) {
+					window.location = 'file:///H:/Documents/Concepts-to-Reality/Concepts%20to%20Reality.html'; // this sends you to CONCEPTS TO REALITY!!!!!! WHOOOOO!
+						 
+						}
+						
+						else{
+						incorrect()
+						}
+						
+				}			
+										
+					
+							
+			}
+				else{
+				incorrect()
+				}
+	}
+ }
+ 
+ //shououot to keiran and aless
+ </script>  !-->
+ 
 
+ <br>
+ <br>
+ <br>
+
+ <center><p style="color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"> Try to acess my website! <p> </center>
+ 
 </body>
 </html>
