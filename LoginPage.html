@@ -11,9 +11,16 @@
 <br>
 <br>
 
+
+<center><img src="photos/mainpage/snekpek.png" style="-webkit-filter: blur(5px); filter: blur(5px);" height="400" width="750"></div></center>
+
+<br>
+<br>
+<br>
+
 <center><button onclick="login()" target="_blank">&#9776; LOGIN HERE </button> </center>
 
-<!-- Attempt One - Working with glitch
+<!-- Attempt One - Working with glitch - 
 <script>
 function login()/*this is the opening function*/ { 
 
@@ -32,7 +39,6 @@ function incorrect() {
 				for (f = 0; f < pass.length; f++) { //this checks the password
 					if (password === pass[f]) {
 					window.location = 'file:///H:/Documents/Concepts-to-Reality/Concepts%20to%20Reality.html'; // this sends you to CONCEPTS TO REALITY!!!!!! WHOOOOO!
-						 
 						}
 						
 						else{
@@ -51,7 +57,41 @@ function incorrect() {
  }
  
  //shououot to keiran and aless
- </script>  !-->
+ </script> !-->
+ 
+<script>
+
+function login(){
+
+var username = [" ","janusz", "test", "mr.deg"];
+var pass =[" ","stomal","test","cp4"]
+var help = 'false'
+	
+/*vars to cheak the users response*/
+	var person = prompt ("what is your username");
+	for (i = 0; i < username.length; i++) /*opens for loop*/{
+		while (help === 'false') {
+			if (person !== username[i]) {
+				var help = 'true'
+				confirm ("wrong password");
+			}
+			 else if (password !== pass[f])/*opens if*/ {
+				var help = 'true'
+				confirm ("wrong password");
+				/*cheak password*/
+			 }
+			else if (person === username[i]) {
+				var password = prompt("what is your password");
+				var f = i
+					if (password === pass[f]) {
+						window.location /*if it ois achived then it will send u to this site*/= 'file://locker/2018/dillk/Desktop/dank%20progect%20swag%20419/universal_page.html';
+						var help = 'true'
+						}
+			}
+		}
+	}
+}	
+ </script>
  
 
  <br>
