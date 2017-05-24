@@ -64,27 +64,26 @@ function incorrect() {
 function login(){
 
 var username = [" ","janusz", "test", "mr.deg"];
-var pass =[" ","stomal","test","cp4"]
-var help = 'false'
+var pass =[" ","stomal","test","cp4"];
+var help = 'false' ;
 	
 /*vars to cheak the users response*/
 	var person = prompt ("what is your username");
-	for (i = 0; i < username.length; i++) /*opens for loop*/{
-		while (help === 'false') {
-			if (person !== username[i]) {
+	for (i = 0; i < username.length; i++) { //opens for loops
+		while (help === 'false') { //checking... (added to remove the triple message glitch)
+			if (person !== username[i]) { //verifying...
 				var help = 'true'
-				confirm ("wrong password");
+				confirm ("wrong password"); // confirmation! checks to see if the entered unit is correct
 			}
-			 else if (password !== pass[f])/*opens if*/ {
+			 else if (password !== pass[f]){ //re-opens if
 				var help = 'true'
-				confirm ("wrong password");
-				/*cheak password*/
+				confirm ("wrong password"); //confrimation!
 			 }
 			else if (person === username[i]) {
-				var password = prompt("what is your password");
+				var password = prompt("what is your password"); //opens promt for password
 				var f = i
 					if (password === pass[f]) {
-						window.location /*if it ois achived then it will send u to this site*/= 'file://locker/2018/dillk/Desktop/dank%20progect%20swag%20419/universal_page.html';
+						window.location = 'file:///H:/Documents/Concepts-to-Reality/Concepts%20to%20Reality.html'; //if all things are met, 
 						var help = 'true'
 						}
 			}
