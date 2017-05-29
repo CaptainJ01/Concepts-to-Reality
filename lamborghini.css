@@ -1,0 +1,92 @@
+/* Janusz CSS */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323232;
+ /* position: fixed; */
+}
+
+div.cities {
+    background-color: darkgrey;
+    color: white;
+    margin: 10px 10 10px 10;
+    padding: 2px;
+}
+
+li {
+    float: left;
+}
+
+/* ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+} */
+
+li a {
+    display: block;
+    color: #c0c0c0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* A bunch of test shadowing and styling (below) */
+
+h1 {
+    text-shadow: 0px 0px 8px #ffffff;
+}
+
+.subtitle {
+    text-shadow: 0px 0px 8px #ffffff;
+}
+
+h3 {
+    text-shadow: 2px 2px 8px #c0c0c0;
+}
+
+/* video dive block styling */
+.video{
+	background-color: #a9a9a9;
+	padding: 10px 0px 0px ;
+}
+
+.ferrari1{
+	float:left;
+}
+.ferrari2{
+	float:right;
+	margin-top: 40px;	
+}
+.ferrari3{
+	float:left;
+	margin-top: 75px;
+	margin-right: 75px;
+}
+.ferrari4{
+	float:right;
+	margin-top: 245px;
+	margin-right: -250px;
+}
+.seats{
+	color: #a9a9a9;
+	font-size: 150%
+}
+.engine{
+	color: #a9a9a9;
+	font-size: 150%
+}
+
+.build {
+	color: #a9a9a9;
+	font-size: 150%;
+}
